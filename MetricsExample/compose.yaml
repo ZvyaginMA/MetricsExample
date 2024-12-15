@@ -1,0 +1,6 @@
+﻿services:
+  metricsexample:
+    image: metricsexample
+    build:
+      context: .
+      dockerfile: MetricsExample/Dockerfile
